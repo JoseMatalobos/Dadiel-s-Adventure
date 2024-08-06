@@ -1,9 +1,0 @@
-# Trata todos los archivos de texto como archivos con finales de línea LF
-* text=auto
-
-# Fuerza los archivos específicos a usar LF
-*.sh text eol=lf
-*.md text eol=lf
-
-# Fuerza los archivos específicos a usar CRLF
-*.bat text eol=crlf
