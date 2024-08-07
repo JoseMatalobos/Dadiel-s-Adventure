@@ -35,8 +35,4 @@ public class ScenesManagement : MonoBehaviour
         askClosePanel.SetActive(false);
         Debug.Log("Has cerrado el panel.");
     }
-    void Update()
-    {
-        
-    }
 }

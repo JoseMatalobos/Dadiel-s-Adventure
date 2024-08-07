@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui_logic\\arrowmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\jose\\desktop\\proyectos\\dadiel adventure\\dadiel-s-adventure\\my project\\assets\\scripts\\management\\charselectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\charselectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\assets\\scripts\\management\\scenesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\scenesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\ScenesManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ScenesManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\assets\\scripts\\management\\audiosourcescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\audiosourcescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\assets\\scripts\\management\\turnonarrowscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\turnonarrowscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\assets\\scripts\\management\\charselectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\charselectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,20 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CharSelectManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\CharSelectManagement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\CharSelectManagement.cs",
-              "ToolTip": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\CharSelectManagement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Management\\CharSelectManagement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA3AAAA",
+              "Title": "ScenesManagement.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\ScenesManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\ScenesManagement.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\ScenesManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\ScenesManagement.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wCQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T15:39:23.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T16:46:42.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioSourceScript.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\AudioSourceScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\AudioSourceScript.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\AudioSourceScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\AudioSourceScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T16:34:52.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TurnOnArrowScript.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\TurnOnArrowScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\TurnOnArrowScript.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\TurnOnArrowScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\TurnOnArrowScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T16:31:29.546Z"
             },
             {
               "$type": "Document",
@@ -45,21 +76,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI_Logic\\ArrowMovement.cs",
               "ToolTip": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\UI_Logic\\ArrowMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI_Logic\\ArrowMovement.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwGsAAAAJAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAhwBgAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T14:58:53.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScenesManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\ScenesManagement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScenesManagement.cs",
-              "ToolTip": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\ScenesManagement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScenesManagement.cs",
+              "DocumentIndex": 4,
+              "Title": "CharSelectManagement.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\CharSelectManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\CharSelectManagement.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Proyectos\\Dadiel Adventure\\Dadiel-s-Adventure\\My project\\Assets\\Scripts\\Management\\CharSelectManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\CharSelectManagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T08:41:26.038Z"
+              "WhenOpened": "2024-08-07T15:39:23.876Z"
             }
           ]
         }

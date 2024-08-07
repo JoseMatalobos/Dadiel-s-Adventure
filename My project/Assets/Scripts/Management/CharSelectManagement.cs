@@ -10,10 +10,6 @@ public class CharSelectManagement : MonoBehaviour
     {
         DontDestroyOnLoad(this);
     }
-    void Start()
-    {
-        
-    }
 
     void Update()
     {

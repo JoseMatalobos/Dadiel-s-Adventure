@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharSelScreen.unity
     guid: d9d43c745d0243b4bb56a052192cd860
+  - enabled: 1
+    path: Assets/Scenes/World1.unity
+    guid: a210651de91af9c4da47e4a14bdac7b6
   m_configObjects: {}
