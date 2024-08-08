@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Trap
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -40,4 +43,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 159209975
+    locked: 0
+  - name: TrapsOther
+    uniqueID: 3657556583
+    locked: 0
+  - name: Ground
+    uniqueID: 343860913
+    locked: 0
+  - name: Traps
+    uniqueID: 1973664929
+    locked: 0
+  - name: Enemies
+    uniqueID: 3230181871
+    locked: 0
+  - name: Player
+    uniqueID: 521003141
     locked: 0
