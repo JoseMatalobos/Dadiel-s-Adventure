@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharJump : MonoBehaviour, IJump
@@ -10,23 +9,28 @@ public class CharJump : MonoBehaviour, IJump
     public bool isGrounded;
 
     private Rigidbody2D rb;
+    private Animator anim;
 
-    public void Initialize(Rigidbody2D externalRb, Transform groundCheckTransform)
+    IJump jump;
+
+    public void Initialize(Rigidbody2D externalRb, Transform groundCheckTransform, Animator externalAnim)
     {
         rb = externalRb;
         groundCheck = groundCheckTransform;
+        anim = externalAnim;
     }
     public void Jump() 
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) 
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            isGrounded = false;
-        }
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        anim.SetBool("Jumping", true);
     }
 
     void Update()
     {
+        // Detecta si el personaje está tocando el suelo
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+
+        anim.SetBool("Grounded", isGrounded);
+        anim.SetBool("Jumping", !isGrounded);
     }
 }

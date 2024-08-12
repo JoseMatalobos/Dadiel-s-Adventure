@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CharMovement : MonoBehaviour, IMovement
@@ -10,6 +8,7 @@ public class CharMovement : MonoBehaviour, IMovement
 
     private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer sr;
 
     IJump jump;
     IAnimation anim;
@@ -20,16 +19,32 @@ public class CharMovement : MonoBehaviour, IMovement
         jump = charJump;
     }
 
-    public void Initialize(Rigidbody2D externalRb)
+    public void Initialize(Rigidbody2D externalRb, SpriteRenderer externalSr)
     {
         rb = externalRb;
+        sr = externalSr;
     }
 
     public void Move()
     {
         float moveInput = Input.GetAxisRaw("Horizontal");
-
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        if (moveInput > 0f) 
+        {
+            rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+            anim.PlayRunAnimation();
+            sr.flipX = false;
+        } 
+        else if(moveInput < 0f) 
+        {
+            rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+            anim.PlayRunAnimation();
+            sr.flipX = true;
+        }
+        else if(moveInput == 0f)
+        {
+            rb.velocity = new Vector2(0f, rb.velocity.y);
+            anim.StopRunAnimation(); 
+        }
     }
 
     void Update()
@@ -37,7 +52,6 @@ public class CharMovement : MonoBehaviour, IMovement
         if (jump is CharJump charJump)
         {
             isGrounded = charJump.isGrounded;
-            anim.PlayJumpAnimation();
         }
     }
 }

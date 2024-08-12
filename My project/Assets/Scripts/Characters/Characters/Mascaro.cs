@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Mascaro : MonoBehaviour
@@ -9,6 +7,8 @@ public class Mascaro : MonoBehaviour
     IAnimation anim;
     Rigidbody2D rbMascaro;
     Animator animMascaro;
+    SpriteRenderer srMascaro;
+
     public Transform groundCheckTransform;
 
     new string name = "Mascaro";
@@ -22,13 +22,13 @@ public class Mascaro : MonoBehaviour
         CharMovement charMovement = GameObject.Find("CharMovManager").GetComponent<CharMovement>();
         CharJump charJump = GameObject.Find("CharJumpManager").GetComponent<CharJump>();
         CharAnimations charAnimations = GameObject.Find("CharAnimManager").GetComponent<CharAnimations>();
-
         rbMascaro = GetComponent<Rigidbody2D>();
         animMascaro = GetComponent<Animator>();
+        srMascaro = GetComponent <SpriteRenderer>();
 
-        // Inicializar el CharMovement con el Rigidbody2D de Mascaro
-        charMovement.Initialize(rbMascaro);
-        charJump.Initialize(rbMascaro, groundCheckTransform);
+        // Inicializar los scripts con el componente de Mascaro
+        charMovement.Initialize(rbMascaro, srMascaro);
+        charJump.Initialize(rbMascaro, groundCheckTransform, animMascaro);
         charAnimations.Initialize(animMascaro);
 
         // Asignar a la interfaz 
@@ -40,7 +40,6 @@ public class Mascaro : MonoBehaviour
         SetMovementStats();
         SetJumpStats();
     }
-
     void SetMovementStats()
     {
         if (movement is CharMovement charMovement)
@@ -57,12 +56,13 @@ public class Mascaro : MonoBehaviour
             charJump.isGrounded = isGrounded;
         }
     }
-
     private void Update()
     {
         movement.Move();
-        jump.Jump();
+        
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            jump.Jump();
+        }
     }
 }
-
-

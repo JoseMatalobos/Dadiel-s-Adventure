@@ -21,14 +21,23 @@ public class CharAnimations : MonoBehaviour, IAnimation
     {
         anim.SetBool("Running", true);
     }
+    public void StopRunAnimation() 
+    {
+        anim.SetBool("Running", false);
+    }
 
     public void PlayJumpAnimation() 
     {
         anim.SetBool("Jumping", true);
     }
 
-    void Update()
+    public void StopJumpAnimation() 
     {
-        
+        anim.SetBool("Jumping", false);
+    }
+
+    public void PlayHitAnimation() 
+    {
+        anim.SetBool("Hitted", true);
     }
 }
