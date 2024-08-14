@@ -7,7 +7,6 @@ public class CharMovement : MonoBehaviour, IMovement
     public bool isGrounded;
 
     private Rigidbody2D rb;
-    private Animator animator;
     private SpriteRenderer sr;
 
     IJump jump;
